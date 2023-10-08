@@ -2,7 +2,7 @@ export const translations = {
   name: "LUCIANO SILVA",
   experience: "Experiência",
   about: "Sobre",
-  cases: "Casos",
+  cases: "Trabalhos",
   text: "Olá, sou Luciano Silva",
   textdescription:
     "Com alguns anos de experiência em grandes empresas de tecnologia, atualmente atuo como UX/UI Designer e estou sempre em busca de novos conhecimentos e experiências. Vamos conversar.",
