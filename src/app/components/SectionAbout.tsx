@@ -16,7 +16,7 @@ const SectionAbout = () => {
       <Container mt="8" mb="8">
         <Flex gap="6" justify="between" align="center">
           <div>
-            <Image style={{ borderRadius: 8 }} src="/img/MY2.jpg" width={500} height={500} alt="My Picture" />
+            <Image style={{ borderRadius: 8 }} src="/images/MY2.jpg" width={500} height={500} alt="My Picture" />
           </div>
           <Flex direction="column" gap="2">
             <Heading>Sobre</Heading>
@@ -50,8 +50,8 @@ const SectionAbout = () => {
                 <Badge>CSS/SASS</Badge>
                 <Badge>JavaScript</Badge>
                 <Badge>NextJS</Badge>
+                <Badge>TypeScript</Badge>
                 <Badge>ReactJS</Badge>
-                <Badge>RadixUI</Badge>
                 <Tooltip content={translations.muchmore}>
                   <Badge>...</Badge>
                 </Tooltip>

@@ -58,7 +58,7 @@ const SectionHero = () => {
             </Flex>
           </Flex>
           <div>
-            <Image style={{ borderRadius: 8 }} src="/img/MY.jpeg" width={300} height={300} alt="My Picture" />
+            <Image style={{ borderRadius: 8 }} src="/images/MY.jpeg" width={300} height={300} alt="My Picture" />
           </div>
         </Flex>
       </Container>

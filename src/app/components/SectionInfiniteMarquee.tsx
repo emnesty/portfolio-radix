@@ -54,8 +54,8 @@ const SectionInfiniteMarquee = () => {
               onMouseLeave={handleMouseLeaveLeft}
               style={{ animationPlayState: isPausedLeft ? "paused" : "running" }}>
               <Card size="3" style={{ maxWidth: 500 }}>
-                <Flex gap="4" align="center">
-                  <Avatar size="5" src="/img/thais_maurin.jpeg" radius="full" fallback="TM" />
+                <Flex gap="5" align="center">
+                  <Avatar size="5" src="/images/thais_maurin.jpeg" radius="full" fallback="TM" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Thais Maurin
@@ -80,8 +80,8 @@ const SectionInfiniteMarquee = () => {
                 </Flex>
               </Card>
               <Card size="3" style={{ maxWidth: 500 }}>
-                <Flex gap="4" align="center">
-                  <Avatar size="5" src="/img/ale.jpeg" radius="full" fallback="AM" />
+                <Flex gap="5" align="center">
+                  <Avatar size="5" src="/images/ale.jpeg" radius="full" fallback="AM" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Alexandre Mendonça
@@ -106,8 +106,8 @@ const SectionInfiniteMarquee = () => {
                 </Flex>
               </Card>
               <Card size="3" style={{ maxWidth: 500 }}>
-                <Flex gap="4" align="center">
-                  <Avatar size="5" src="/img/marllon.jpeg" radius="full" fallback="MB" />
+                <Flex gap="5" align="center">
+                  <Avatar size="5" src="/images/marllon.jpeg" radius="full" fallback="MB" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Marllon Bianchini
@@ -131,8 +131,8 @@ const SectionInfiniteMarquee = () => {
                 </Flex>
               </Card>
               <Card size="3" style={{ maxWidth: 500 }}>
-                <Flex gap="4" align="center">
-                  <Avatar size="5" src="/img/augusto.jpeg" radius="full" fallback="AS" />
+                <Flex gap="5" align="center">
+                  <Avatar size="5" src="/images/augusto.jpeg" radius="full" fallback="AS" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Augusto Schuambach
@@ -161,8 +161,8 @@ const SectionInfiniteMarquee = () => {
               onMouseLeave={handleMouseLeaveLeft}
               style={{ animationPlayState: isPausedLeft ? "paused" : "running" }}>
               <Card size="3" style={{ maxWidth: 500 }}>
-                <Flex gap="4" align="center">
-                  <Avatar size="5" src="/img/thais_maurin.jpeg" radius="full" fallback="TM" />
+                <Flex gap="5" align="center">
+                  <Avatar size="5" src="/images/thais_maurin.jpeg" radius="full" fallback="TM" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Thais Maurin
@@ -187,8 +187,8 @@ const SectionInfiniteMarquee = () => {
                 </Flex>
               </Card>
               <Card size="3" style={{ maxWidth: 500 }}>
-                <Flex gap="4" align="center">
-                  <Avatar size="5" src="/img/ale.jpeg" radius="full" fallback="AM" />
+                <Flex gap="5" align="center">
+                  <Avatar size="5" src="/images/ale.jpeg" radius="full" fallback="AM" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Alexandre Mendonça
@@ -213,8 +213,8 @@ const SectionInfiniteMarquee = () => {
                 </Flex>
               </Card>
               <Card size="3" style={{ maxWidth: 500 }}>
-                <Flex gap="4" align="center">
-                  <Avatar size="5" src="/img/marllon.jpeg" radius="full" fallback="MB" />
+                <Flex gap="5" align="center">
+                  <Avatar size="5" src="/images/marllon.jpeg" radius="full" fallback="MB" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Marllon Bianchini
@@ -238,8 +238,8 @@ const SectionInfiniteMarquee = () => {
                 </Flex>
               </Card>
               <Card size="3" style={{ maxWidth: 500 }}>
-                <Flex gap="4" align="center">
-                  <Avatar size="5" src="/img/augusto.jpeg" radius="full" fallback="AS" />
+                <Flex gap="5" align="center">
+                  <Avatar size="5" src="/images/augusto.jpeg" radius="full" fallback="AS" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Augusto Schuambach
@@ -304,8 +304,8 @@ const SectionInfiniteMarquee = () => {
                 </Flex>
               </Card>
               <Card size="1" style={{ maxWidth: 400 }}>
-                <Flex gap="3" align="center">
-                  <Avatar size="3" src="/img/yeloo.jpeg" radius="full" fallback="SM" />
+                <Flex gap="5" align="center">
+                  <Avatar size="3" src="/images/yeloo.jpeg" radius="full" fallback="SM" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Silvio Matos
@@ -314,9 +314,7 @@ const SectionInfiniteMarquee = () => {
                       Redesign com Copy de Landing Page
                     </Text>
                     <Text as="div" size="2" weight="bold">
-                      <Quote>
-                        O cara é profissional e atencioso, pode contratar sem medo pq ele sabe o que faz!
-                      </Quote>
+                      O cara é profissional e atencioso, pode contratar sem medo pq ele sabe o que faz!
                     </Text>
                     <Link target="_blank" href="https://www.99freelas.com.br/user/lucianoclecio">
                       <Flex align="center" gap="2" mt="2">
@@ -328,8 +326,8 @@ const SectionInfiniteMarquee = () => {
                 </Flex>
               </Card>
               <Card size="1" style={{ maxWidth: 400 }}>
-                <Flex gap="3" align="center">
-                  <Avatar size="3" src="/img/bernardo.jpeg" radius="full" fallback="BB" />
+                <Flex gap="5" align="center">
+                  <Avatar size="3" src="/images/bernardo.jpeg" radius="full" fallback="BB" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Bernardo B.
@@ -338,7 +336,7 @@ const SectionInfiniteMarquee = () => {
                       UX/UI para LP de vendas do produto feito em framer
                     </Text>
                     <Text as="div" size="2" weight="bold">
-                      <Quote>Muito profissional e atencioso. Recomendo.</Quote>
+                      Muito profissional e atencioso. Recomendo.
                     </Text>
                     <Link target="_blank" href="https://www.99freelas.com.br/user/lucianoclecio">
                       <Flex align="center" gap="2" mt="2">
@@ -360,7 +358,7 @@ const SectionInfiniteMarquee = () => {
                       Telas software a partir de desenho em papel
                     </Text>
                     <Text as="div" size="2" weight="bold">
-                      <Quote>O Luciano é absolutamente ágil!</Quote>
+                      O Luciano é absolutamente ágil!
                     </Text>
                     <Link target="_blank" href="https://www.99freelas.com.br/user/lucianoclecio">
                       <Flex align="center" gap="2" mt="2">
@@ -372,7 +370,7 @@ const SectionInfiniteMarquee = () => {
                 </Flex>
               </Card>
               <Card size-="1" style={{ maxWidth: 500 }}>
-                <Flex gap="3" align="center">
+                <Flex gap="5" align="center">
                   <Avatar size="3" radius="full" fallback="OS" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
@@ -382,11 +380,9 @@ const SectionInfiniteMarquee = () => {
                       Complete redesign of my website
                     </Text>
                     <Text as="div" size="2" weight="bold">
-                      <Quote>
-                        Truly exceptional - his professionalism, creativity, and attention to detail in
-                        crafting my website exceeded all expectations, and he deserve to be recognized for his
-                        talents and entrusted with more high-budgeted projects.
-                      </Quote>
+                      Truly exceptional - his professionalism, creativity, and attention to detail in crafting
+                      my website exceeded all expectations, and he deserve to be recognized for his talents
+                      and entrusted with more high-budgeted projects.
                     </Text>
                     <Link target="_blank" href="https://www.upwork.com/freelancers/~0109cf227e1e473338">
                       <Flex align="center" gap="2" mt="2">
@@ -426,8 +422,8 @@ const SectionInfiniteMarquee = () => {
                 </Flex>
               </Card>
               <Card size="1" style={{ maxWidth: 400 }}>
-                <Flex gap="3" align="center">
-                  <Avatar size="3" src="/img/yeloo.jpeg" radius="full" fallback="SM" />
+                <Flex gap="5" align="center">
+                  <Avatar size="3" src="/images/yeloo.jpeg" radius="full" fallback="SM" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Silvio Matos
@@ -436,9 +432,7 @@ const SectionInfiniteMarquee = () => {
                       Redesign com Copy de Landing Page
                     </Text>
                     <Text as="div" size="2" weight="bold">
-                      <Quote>
-                        O cara é profissional e atencioso, pode contratar sem medo pq ele sabe o que faz!
-                      </Quote>
+                      O cara é profissional e atencioso, pode contratar sem medo pq ele sabe o que faz!
                     </Text>
                     <Link target="_blank" href="https://www.99freelas.com.br/user/lucianoclecio">
                       <Flex align="center" gap="2" mt="2">
@@ -450,8 +444,8 @@ const SectionInfiniteMarquee = () => {
                 </Flex>
               </Card>
               <Card size="1" style={{ maxWidth: 400 }}>
-                <Flex gap="3" align="center">
-                  <Avatar size="3" src="/img/bernardo.jpeg" radius="full" fallback="BB" />
+                <Flex gap="5" align="center">
+                  <Avatar size="3" src="/images/bernardo.jpeg" radius="full" fallback="BB" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Bernardo B.
@@ -460,7 +454,7 @@ const SectionInfiniteMarquee = () => {
                       UX/UI para LP de vendas do produto feito em framer
                     </Text>
                     <Text as="div" size="2" weight="bold">
-                      <Quote>Muito profissional e atencioso. Recomendo.</Quote>
+                      Muito profissional e atencioso. Recomendo.
                     </Text>
                     <Link target="_blank" href="https://www.99freelas.com.br/user/lucianoclecio">
                       <Flex align="center" gap="2" mt="2">
@@ -472,7 +466,7 @@ const SectionInfiniteMarquee = () => {
                 </Flex>
               </Card>
               <Card size="1" style={{ maxWidth: 400 }}>
-                <Flex gap="3" align="center">
+                <Flex gap="5" align="center">
                   <Avatar size="3" radius="full" fallback="MA" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
@@ -482,7 +476,7 @@ const SectionInfiniteMarquee = () => {
                       Telas software a partir de desenho em papel
                     </Text>
                     <Text as="div" size="2" weight="bold">
-                      <Quote>O Luciano é absolutamente ágil!</Quote>
+                      O Luciano é absolutamente ágil!
                     </Text>
                     <Link target="_blank" href="https://www.99freelas.com.br/user/lucianoclecio">
                       <Flex align="center" gap="2" mt="2">
@@ -494,7 +488,7 @@ const SectionInfiniteMarquee = () => {
                 </Flex>
               </Card>
               <Card size-="1" style={{ maxWidth: 500 }}>
-                <Flex gap="3" align="center">
+                <Flex gap="5" align="center">
                   <Avatar size="3" radius="full" fallback="OS" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
@@ -504,11 +498,9 @@ const SectionInfiniteMarquee = () => {
                       Complete redesign of my website
                     </Text>
                     <Text as="div" size="2" weight="bold">
-                      <Quote>
-                        Truly exceptional - his professionalism, creativity, and attention to detail in
-                        crafting my website exceeded all expectations, and he deserve to be recognized for his
-                        talents and entrusted with more high-budgeted projects.
-                      </Quote>
+                      Truly exceptional - his professionalism, creativity, and attention to detail in crafting
+                      my website exceeded all expectations, and he deserve to be recognized for his talents
+                      and entrusted with more high-budgeted projects.
                     </Text>
                     <Link target="_blank" href="https://www.upwork.com/freelancers/~0109cf227e1e473338">
                       <Flex align="center" gap="2" mt="2">
