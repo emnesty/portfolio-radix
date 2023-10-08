@@ -292,7 +292,7 @@ const SectionInfiniteMarquee = () => {
                       Designer UI/UX para aplicativo web
                     </Text>
                     <Text as="div" size="2" weight="bold">
-                      <Quote>Excelente profissional</Quote>
+                      Excelente profissional
                     </Text>
                     <Link target="_blank" href="https://www.99freelas.com.br/user/lucianoclecio">
                       <Flex align="center" gap="2" mt="2">
@@ -410,7 +410,7 @@ const SectionInfiniteMarquee = () => {
                       Designer UI/UX para aplicativo web
                     </Text>
                     <Text as="div" size="2" weight="bold">
-                      <Quote>Excelente profissional</Quote>
+                      Excelente profissional
                     </Text>
                     <Link target="_blank" href="https://www.99freelas.com.br/user/lucianoclecio">
                       <Flex align="center" gap="2" mt="2">
