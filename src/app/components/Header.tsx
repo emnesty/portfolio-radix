@@ -16,7 +16,7 @@ const Header = () => {
       <Container style={{ marginLeft: 20, marginRight: 20 }}>
         <Flex align="center">
           <div className="flex justify-between items-center w-full">
-            <div>
+            <div className="max-sm:hidden">
               <Text weight="bold">{translations.name}</Text>
             </div>
             <NavigationMenu>

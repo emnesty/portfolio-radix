@@ -15,13 +15,13 @@ const SectionHero = () => {
   return (
     <Section className="bg-[url('/img/background-pattern-3.png')] bg-no-repeat bg-center bg-cover flex w-full h-[530px] mb-10 ">
       <Container style={{ marginLeft: 15, marginRight: 15 }}>
-        <Flex className="max-lg:mt-10" justify="between">
+        <Flex className="max-lg:mt-10 max-sm:mt-12" justify="between">
           <Flex direction="column" justify="center">
             <Text>{translations.text}</Text>
             <Heading
               className="w-full max-w-[600px] mt-4"
               size={{
-                initial: "9",
+                initial: "7",
                 sm: "9",
                 md: "9",
                 xl: "9",
@@ -30,7 +30,9 @@ const SectionHero = () => {
               weight="bold">
               UX/UI Designer, Frontend developer.
             </Heading>
-            <Text className="w-full max-w-[550px] mt-4">{translations.textdescription}</Text>
+            <Text className="w-full max-w-[550px] max-sm:max-w-[420px] mt-8">
+              {translations.textdescription}
+            </Text>
             <Flex align="center" gap="6">
               <HoverCard.Root>
                 <HoverCard.Trigger>
