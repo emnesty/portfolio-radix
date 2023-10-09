@@ -19,9 +19,9 @@ const SectionHero = () => {
           <Flex direction="column" justify="center">
             <Text>{translations.text}</Text>
             <Heading
-              className="w-full max-w-[600px] mt-4"
+              className="w-full max-w-[600px] max-sm:max-w-[400px] mt-4"
               size={{
-                initial: "7",
+                initial: "8",
                 sm: "9",
                 md: "9",
                 xl: "9",
