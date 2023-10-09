@@ -5,6 +5,7 @@ import {
   Badge,
   Container,
   Flex,
+  Grid,
   Heading,
   HoverCard,
   Link,
@@ -24,16 +25,10 @@ const SectionAbout = () => {
 
   return (
     <Section>
-      <Container mt="8" mb="8">
-        <Flex gap="6" justify="between" align="center">
+      <Container className="mt-8 mb-8">
+        <Flex className="flex justify-between gap-1.5 items-center max-lg:flex max-lg:flex-col">
           <div>
-            <Image
-              style={{ borderRadius: 8 }}
-              src="/images/MY2.jpg"
-              width={500}
-              height={500}
-              alt="My Picture"
-            />
+            <Image className="rounded-lg" src="/images/MY2.jpg" width={500} height={500} alt="My Picture" />
           </div>
           <Flex direction="column" gap="2">
             <Heading>Sobre</Heading>
@@ -51,29 +46,45 @@ const SectionAbout = () => {
               <Text weight="bold" mt="2">
                 Algumas das minhas skills
               </Text>
-              <Badge radius="full" size="2">
-                Designer
-                <Badge>UI/UX Design</Badge>
-                <Badge>Research</Badge>
-                <Badge>Discovery</Badge>
-                <Badge>Figma</Badge>
-                <Badge>Usability Tests</Badge>
-                <Tooltip content={translations.muchmore}>
-                  <Badge>...</Badge>
-                </Tooltip>
-              </Badge>
-              <Badge radius="full" size="2">
-                Front-end
-                <Badge>HTML</Badge>
-                <Badge>CSS/SASS</Badge>
-                <Badge>JavaScript</Badge>
-                <Badge>NextJS</Badge>
-                <Badge>TypeScript</Badge>
-                <Badge>ReactJS</Badge>
-                <Tooltip content={translations.muchmore}>
-                  <Badge>...</Badge>
-                </Tooltip>
-              </Badge>
+              <Text>Product Design</Text>
+              <Grid columns="3" gap="3" className="max-w-[400px]">
+                <Badge size="2" className="flex justify-center align-center">
+                  UI/UX Design
+                </Badge>
+                <Badge size="2" className="flex justify-center align-center">
+                  Research
+                </Badge>
+                <Badge size="2" className="flex justify-center align-center">
+                  Discovery
+                </Badge>
+                <Badge size="2" className="flex justify-center align-center">
+                  Figma
+                </Badge>
+                <Badge size="2" className="flex justify-center align-center">
+                  Usability
+                </Badge>
+              </Grid>
+              <Text>Front-end</Text>
+              <Grid columns="3" gap="3" className="max-w-[400px">
+                <Badge size="2" className="flex justify-center align-center">
+                  HTML
+                </Badge>
+                <Badge size="2" className="flex justify-center align-center">
+                  CSS/SASS
+                </Badge>
+                <Badge size="2" className="flex justify-center align-center">
+                  JavaScript
+                </Badge>
+                <Badge size="2" className="flex justify-center align-center">
+                  NextJS
+                </Badge>
+                <Badge size="2" className="flex justify-center align-center">
+                  TypeScript
+                </Badge>
+                <Badge size="2" className="flex justify-center align-center">
+                  ReactJS
+                </Badge>
+              </Grid>
               <Text weight="bold" mt="2">
                 Mais informações sobre minha carreira
               </Text>
