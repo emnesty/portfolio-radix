@@ -1,7 +1,18 @@
 "use client"
 
 import { LinkedInLogoIcon } from "@radix-ui/react-icons"
-import { Badge, Container, Flex, Heading, HoverCard, Link, Section, Text, Tooltip } from "@radix-ui/themes"
+import {
+  Badge,
+  Container,
+  Flex,
+  Heading,
+  HoverCard,
+  Link,
+  Section,
+  Separator,
+  Text,
+  Tooltip,
+} from "@radix-ui/themes"
 import Image from "next/image"
 import React, { useContext } from "react"
 import { LanguageContext } from "./LanguageProvider"
@@ -16,7 +27,13 @@ const SectionAbout = () => {
       <Container mt="8" mb="8">
         <Flex gap="6" justify="between" align="center">
           <div>
-            <Image style={{ borderRadius: 8 }} src="/images/MY2.jpg" width={500} height={500} alt="My Picture" />
+            <Image
+              style={{ borderRadius: 8 }}
+              src="/images/MY2.jpg"
+              width={500}
+              height={500}
+              alt="My Picture"
+            />
           </div>
           <Flex direction="column" gap="2">
             <Heading>Sobre</Heading>
@@ -24,7 +41,8 @@ const SectionAbout = () => {
               Me chamo Luciano e trabalho com tecnologia a mais de 10 anos, hoje atuo como Designer de Produto
               na AmbevTech, empresa do grupo Ambev / Anheuser-Busch InBev.
             </Text>
-            <Text style={{ maxWidth: 500 }} mt="4">
+            <Separator my="3" size="4" />
+            <Text style={{ maxWidth: 500 }}>
               Como Designer de Produto, procuro atuar de ponta a ponta durante todo o processo de concepção de
               negócio, participando de refinamentos com stackholders, desenvolvedores e analistas de negócio,
               garantindo que o usuário seja levado em conta em todas as discussões.

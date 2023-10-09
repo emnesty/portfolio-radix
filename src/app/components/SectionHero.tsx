@@ -13,17 +13,24 @@ const SectionHero = () => {
   const { translations } = languageContext
 
   return (
-    <Section className="bg-[url('/img/background-pattern-3.png')] bg-no-repeat bg-center bg-cover flex w-full h-[530px] mb-10">
+    <Section className="bg-[url('/img/background-pattern-3.png')] bg-no-repeat bg-center bg-cover flex w-full h-[530px] mb-10 ">
       <Container style={{ marginLeft: 15, marginRight: 15 }}>
-        <Flex justify="between">
+        <Flex className="max-lg:mt-10" justify="between">
           <Flex direction="column" justify="center">
             <Text>{translations.text}</Text>
-            <Heading as="h1" weight="bold" mt="4" style={{ maxWidth: 600, fontSize: 60, lineHeight: 1 }}>
-              UX/UI Designer, Front-end developer.
+            <Heading
+              className="w-full max-w-[600px] mt-4"
+              size={{
+                initial: "9",
+                sm: "9",
+                md: "9",
+                xl: "9",
+              }}
+              as="h1"
+              weight="bold">
+              UX/UI Designer, Frontend developer.
             </Heading>
-            <Text mt="4" style={{ maxWidth: 600 }}>
-              {translations.textdescription}
-            </Text>
+            <Text className="w-full max-w-[550px] mt-4">{translations.textdescription}</Text>
             <Flex align="center" gap="6">
               <HoverCard.Root>
                 <HoverCard.Trigger>
@@ -57,8 +64,14 @@ const SectionHero = () => {
               </HoverCard.Root>
             </Flex>
           </Flex>
-          <div>
-            <Image style={{ borderRadius: 8 }} src="/images/MY.jpeg" width={300} height={300} alt="My Picture" />
+          <div className="max-lg:hidden">
+            <Image
+              style={{ borderRadius: 8 }}
+              src="/images/MY.jpeg"
+              width={300}
+              height={300}
+              alt="My Picture"
+            />
           </div>
         </Flex>
       </Container>

@@ -30,7 +30,7 @@ const SectionInfiniteMarquee = () => {
   }
 
   return (
-    <Container>
+    <Container style={{ marginLeft: 15, marginRight: 15 }}>
       <Heading as="h1" size="6" mt="4" mb="4">
         {translations.infinitemarqueesectiontitle}
       </Heading>
