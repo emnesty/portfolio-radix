@@ -37,7 +37,7 @@ const SectionHero = () => {
             <div data-aos="fade-right" className="w-full max-w-[550px] max-sm:max-w-[420px] mt-8">
               <Text>{translations.textdescription}</Text>
             </div>
-            <div data-aos="fade-left">
+            <div data-aos="fade-right">
               <Flex align="center" gap="6">
                 <HoverCard.Root>
                   <HoverCard.Trigger>
