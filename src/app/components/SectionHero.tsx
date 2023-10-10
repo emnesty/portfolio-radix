@@ -14,7 +14,7 @@ const SectionHero = () => {
 
   return (
     <Section className="bg-[url('/img/background-pattern-3.png')] bg-no-repeat bg-center bg-cover flex w-full h-[530px] mb-10 ">
-      <Container style={{ marginLeft: 15, marginRight: 15 }}>
+      <Container className="mr-[15px] ml-[15px]">
         <Flex className="max-lg:mt-10 max-sm:mt-12" justify="between">
           <Flex direction="column" justify="center">
             <Text>{translations.text}</Text>

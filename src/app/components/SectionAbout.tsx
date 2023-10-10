@@ -25,10 +25,16 @@ const SectionAbout = () => {
 
   return (
     <Section>
-      <Container className="mt-8 mb-8">
+      <Container className="mt-8 mb-8 mr-[15px] ml-[15px]">
         <Flex className="flex justify-between gap-1.5 items-center max-lg:flex max-lg:flex-col">
           <div>
-            <Image className="rounded-lg" src="/images/MY2.jpg" width={500} height={500} alt="My Picture" />
+            <Image
+              className="max-lg:w-[400px] max-lg:h-[500px] rounded-lg max-lg:mb-8"
+              src="/images/MY2.jpg"
+              width={500}
+              height={500}
+              alt="My Picture"
+            />
           </div>
           <Flex direction="column" gap="2">
             <Heading>Sobre</Heading>
@@ -64,7 +70,7 @@ const SectionAbout = () => {
                   Usability
                 </Badge>
               </Grid>
-              <Text>Front-end</Text>
+              <Text>Frontend</Text>
               <Grid columns="3" gap="3" className="max-w-[400px">
                 <Badge size="2" className="flex justify-center align-center">
                   HTML
