@@ -4,7 +4,7 @@ import { Inter } from "next/font/google"
 import "@radix-ui/themes/styles.css"
 import { ThemeProvider } from "./components/ThemeProvider"
 import Head from "next/head"
-import favicon from "../../public/favicon.ico"
+import AOSInit from "./components/AOSInit"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -17,6 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-BR">
       <body className={inter.className}>
+        <AOSInit />
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <main>{children}</main>
         </ThemeProvider>

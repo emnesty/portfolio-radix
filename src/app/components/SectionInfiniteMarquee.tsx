@@ -31,12 +31,16 @@ const SectionInfiniteMarquee = () => {
 
   return (
     <Container style={{ marginLeft: 15, marginRight: 15 }}>
-      <Heading as="h1" size="6" mt="4" mb="4">
-        {translations.infinitemarqueesectiontitle}
-      </Heading>
-      <Text mt="4">
-        <Box style={{ maxWidth: 600 }}>{translations.infinitemarqueesectiondescription}</Box>
-      </Text>
+      <div data-aos="fade-right">
+        <Heading as="h1" size="6" mt="4" mb="4">
+          {translations.infinitemarqueesectiontitle}
+        </Heading>
+      </div>
+      <div data-aos="fade-right">
+        <Text mt="4">
+          <Box style={{ maxWidth: 600 }}>{translations.infinitemarqueesectiondescription}</Box>
+        </Text>
+      </div>
       <Flex direction="column" justify="center" style={{ overflow: "hidden", position: "relative" }}>
         <div
           className="relative flex flex-col pt-12 justify-center overflow-hidden
@@ -47,7 +51,7 @@ const SectionInfiniteMarquee = () => {
         after:-scale-x-100
         after:bg-[linear-gradient(to_right,rgba(23,25,22,1)_0%,rgba(255,255,255,0)_100%)]
         after:content-['']">
-          <div className="relative flex gap-10 overflow-hidden">
+          <div className="relative flex gap-10 overflow-hidden" data-aos="fade-left">
             <div
               className="animate-marquee flex min-w-[200%] shrink-0 items-center justify-around gap-6"
               onMouseEnter={handleMouseEnterLeft}
@@ -266,7 +270,7 @@ const SectionInfiniteMarquee = () => {
         </div>
       </Flex>
       <Flex direction="column" justify="center" style={{ overflow: "hidden", position: "relative" }}>
-        <div
+        <div data-aos="fade-right"
           className="relative flex flex-col pt-12 justify-center overflow-hidden
         before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px]
         before:bg-[linear-gradient(to_right,rgba(23,25,22,1)_0%,rgba(255,255,255,0)_100%)]
