@@ -17,10 +17,10 @@ const SectionHero = () => {
       <Container className="mr-[15px] ml-[15px]">
         <Flex className="max-lg:mt-10 max-sm:mt-12" justify="between">
           <Flex direction="column" justify="center">
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" data-aos-duration="1500">
               <Text>{translations.text}</Text>
             </div>
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" data-aos-duration="1400">
               <Heading
                 className="w-full max-w-[600px] max-sm:max-w-[400px] mt-4"
                 size={{
@@ -34,10 +34,10 @@ const SectionHero = () => {
                 UX/UI Designer, Frontend developer.
               </Heading>
             </div>
-            <div data-aos="fade-right" className="w-full max-w-[550px] max-sm:max-w-[420px] mt-8">
+            <div data-aos="fade-right" data-aos-duration="1300" className="w-full max-w-[550px] max-sm:max-w-[420px] mt-8">
               <Text>{translations.textdescription}</Text>
             </div>
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" data-aos-duration="1200">
               <Flex align="center" gap="6">
                 <HoverCard.Root>
                   <HoverCard.Trigger>
