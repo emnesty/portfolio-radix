@@ -21,10 +21,13 @@ const ExpSection = () => {
             <Badge className="sm:absolute left-0 inline-flex items-center justify-center font-semibold uppercase  mb-3 sm:mb-0">
               Mar 2022
             </Badge>
-            <Text weight="bold">Product Designer</Text>
-            <Badge ml="2" color="green">
-              Atual
-            </Badge>
+            <Flex gap="2" direction="column">
+              <Text weight="bold">Product Designer</Text>
+              <Badge radius="full" className="items-center justify-center">
+                mar de 2022 - o momento · 1 ano 8 meses
+                <Badge color="green">Atual</Badge>
+              </Badge>
+            </Flex>
           </div>
           <Text className="text-[#FFFFFFAF]">
             Criando protótipos de soluções para a logística interna do produto (WMS e Logan) em diferentes
@@ -41,7 +44,12 @@ const ExpSection = () => {
             <Badge className="sm:absolute left-0 inline-flex items-center justify-center font-semibold uppercase  mb-3 sm:mb-0">
               Nov 2020
             </Badge>
-            <Text weight="bold">Senior Support Analyst</Text>
+            <Flex gap="2" direction="column">
+              <Text weight="bold">Senior Support Analyst</Text>
+              <Badge radius="full" className="items-center justify-center">
+                nov de 2020 - mar de 2022 · 1 ano 5 meses
+              </Badge>
+            </Flex>
           </div>
           <Text className="text-[#FFFFFFAF]">
             Como Especialista em Suporte e Sustentação, auxiliei no gerenciamento do WMS na AmBev, atuando na
@@ -53,11 +61,16 @@ const ExpSection = () => {
           </Text>
         </div>
         <div className="relative pl-8 sm:pl-32 py-6 group">
-          <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-[280px] before:px-px before:bg-[#FFA057] sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-[#F76B15] after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
+          <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-[300px] before:px-px before:bg-[#FFA057] sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-[#F76B15] after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
             <Badge className="sm:absolute left-0 inline-flex items-center justify-center font-semibold uppercase  mb-3 sm:mb-0">
               Out 2015
             </Badge>
-            <Text weight="bold">Support Analyst</Text>
+            <Flex gap="2" direction="column">
+              <Text weight="bold">Support Analyst</Text>
+              <Badge radius="full" className="items-center justify-center">
+                out de 2015 - out de 2020 · 5 anos 1 mês
+              </Badge>
+            </Flex>
           </div>
           <Text className="text-[#FFFFFFAF]">
             Prestei suporte aos sistemas PromaX, WMS e UNIDOCS na AmBev, acompanhando o faturamento,
@@ -74,9 +87,11 @@ const ExpSection = () => {
             <Badge className="sm:absolute left-0 inline-flex items-center justify-center font-semibold uppercase  mb-3 sm:mb-0">
               May 2014
             </Badge>
-            <Flex gap="2">
+            <Flex gap="2" direction="column">
               <Text weight="bold">Support Assistant</Text>
-              <Badge radius="full">mai de 2014 - out de 2015 · 1 ano 6 meses</Badge>
+              <Badge radius="full" className="items-center justify-center">
+                mai de 2014 - out de 2015 · 1 ano 6 meses
+              </Badge>
             </Flex>
           </div>
           <Text className="text-[#FFFFFFAF]">
@@ -93,9 +108,11 @@ const ExpSection = () => {
             <Badge className="sm:absolute left-0 inline-flex items-center justify-center font-semibold uppercase  mb-3 sm:mb-0">
               Jun 2013
             </Badge>
-            <Flex gap="2">
+            <Flex gap="2" direction="column">
               <Text weight="bold">Support and Monitoring - Internship</Text>
-              <Badge radius="full">jun de 2013 - fev de 2014 · 9 meses</Badge>
+              <Badge radius="full" className="items-center justify-center">
+                jun de 2013 - fev de 2014 · 9 meses
+              </Badge>
             </Flex>
           </div>
           <Text className="text-[#FFFFFFAF]">
