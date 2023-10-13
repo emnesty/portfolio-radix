@@ -75,7 +75,7 @@ const SectionHero = () => {
           <div data-aos="zoom-in-up" className="max-lg:hidden">
             <Image
               style={{ borderRadius: 8 }}
-              src="/images/MY.jpeg"
+              src="/images/MY.webp"
               width={300}
               height={300}
               alt="My Picture"

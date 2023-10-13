@@ -30,7 +30,7 @@ const SectionAbout = () => {
           <div data-aos="zoom-in-up">
             <Image
               className="max-lg:w-[400px] max-lg:h-[500px] rounded-lg max-lg:mb-8"
-              src="/images/MY2.jpg"
+              src="/images/MY2.webp"
               width={500}
               height={500}
               alt="My Picture"
