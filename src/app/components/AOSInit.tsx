@@ -7,6 +7,7 @@ const AOSInit: React.FC = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
+      once: true, // whether animation should happen only once - while scrolling down
     })
   }, [])
 
