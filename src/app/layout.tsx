@@ -6,37 +6,35 @@ import { ThemeProvider } from "./components/ThemeProvider"
 import AOSInit from "./components/AOSInit"
 import Head from "next/head"
 
+export const metadata: Metadata = {
+  title: "Luciano Silva UX/UI Designer - Front-End Developer",
+  description:
+    "Olá, sou Luciano Silva, um UX/UI Designer e Desenvolvedor Frontend com experiência em grandes empresas de tecnologia. Neste portfólio, você poderá explorar meus trabalhos criativos, recomendações e habilidades adquiridas ao longo da minha jornada profissional. Sinta-se à vontade para se conectar comigo no LinkedIn e explorar meus projetos no Github para ter uma visão mais aprofundada do meu expertise técnico e criativo.",
+  metadataBase: new URL("https://lucianosilva.dev/"),
+  openGraph: {
+    type: "website",
+    url: "https://lucianosilva.dev/",
+    title: "Luciano Silva UX/UI Designer - Front-End Developer",
+    description:
+      "Olá, sou Luciano Silva, um UX/UI Designer e Desenvolvedor Frontend com experiência em grandes empresas de tecnologia. Neste portfólio, você poderá explorar meus trabalhos criativos, recomendações e habilidades adquiridas ao longo da minha jornada profissional. Sinta-se à vontade para se conectar comigo no LinkedIn e explorar meus projetos no Github para ter uma visão mais aprofundada do meu expertise técnico e criativo.",
+    siteName: "Luciano Silva UX/UI Designer - Front-End Developer",
+    images: [
+      {
+        url: "https://lucianosilva.dev/opengraph-image.jpg",
+      },
+    ],
+  },
+
+  other: {
+    "google-site-verification": "ZVGdHmoplW_pBTM-dYjSBsi42jYQ1pnj6pWFqJLlInI",
+  },
+}
+
 const inter = Inter({ subsets: ["latin"] })
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <Head>
-        <title>Luciano Silva UX/UI Designer - Front-End Developer</title>
-        <meta name="title" content="Luciano Silva UX/UI Designer - Front-End Developer" />
-        <meta
-          name="description"
-          content="Olá, sou Luciano Silva, um UX/UI Designer e Desenvolvedor Frontend com experiência em grandes empresas de tecnologia. Neste portfólio, você poderá explorar meus trabalhos criativos, recomendações e habilidades adquiridas ao longo da minha jornada profissional. Sinta-se à vontade para se conectar comigo no LinkedIn e explorar meus projetos no Github para ter uma visão mais aprofundada do meu expertise técnico e criativo."
-        />
-
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.lucianosilva.dev/" />
-        <meta property="og:title" content="Luciano Silva UX/UI Designer - Front-End Developer" />
-        <meta
-          property="og:description"
-          content="Olá, sou Luciano Silva, um UX/UI Designer e Desenvolvedor Frontend com experiência em grandes empresas de tecnologia. Neste portfólio, você poderá explorar meus trabalhos criativos, recomendações e habilidades adquiridas ao longo da minha jornada profissional. Sinta-se à vontade para se conectar comigo no LinkedIn e explorar meus projetos no Github para ter uma visão mais aprofundada do meu expertise técnico e criativo."
-        />
-        <meta property="og:image" content="https://lucianosilva.dev/images/opengraph-image.jpg" />
-
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.lucianosilva.dev/" />
-        <meta property="twitter:title" content="Luciano Silva UX/UI Designer - Front-End Developer" />
-        <meta
-          property="twitter:description"
-          content="Olá, sou Luciano Silva, um UX/UI Designer e Desenvolvedor Frontend com experiência em grandes empresas de tecnologia. Neste portfólio, você poderá explorar meus trabalhos criativos, recomendações e habilidades adquiridas ao longo da minha jornada profissional. Sinta-se à vontade para se conectar comigo no LinkedIn e explorar meus projetos no Github para ter uma visão mais aprofundada do meu expertise técnico e criativo."
-        />
-        <meta property="twitter:image" content="https://lucianosilva.dev/images/opengraph-image.jpg" />
-      </Head>
       <body className={inter.className}>
         <AOSInit />
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
