@@ -4,49 +4,42 @@ import { Inter } from "next/font/google"
 import "@radix-ui/themes/styles.css"
 import { ThemeProvider } from "./components/ThemeProvider"
 import AOSInit from "./components/AOSInit"
-import { DefaultSeo } from "next-seo"
-import { NextSeo } from "next-seo"
-import SEO from "./components/SeoConfig"
+import Head from "next/head"
 
 const inter = Inter({ subsets: ["latin"] })
-
-export const metadata: Metadata = {
-  title: "Portfolio - Luciano Silva",
-  description: "Luciano Silva UX/UI Designer - Frontend Developer",
-}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
+      <Head>
+        <title>Luciano Silva UX/UI Designer - Front-End Developer</title>
+        <meta
+          name="description"
+          content="Olá, sou Luciano Silva, um UX/UI Designer e Desenvolvedor Frontend com experiência em grandes empresas de tecnologia. Neste portfólio, você poderá explorar meus trabalhos criativos, recomendações e habilidades adquiridas ao longo da minha jornada profissional. Sinta-se à vontade para se conectar comigo no LinkedIn e explorar meus projetos no Github para ter uma visão mais aprofundada do meu expertise técnico e criativo."
+        />
+        <meta property="og:title" content="Luciano Silva UX/UI Designer - Front-End Developer" />
+        <meta
+          property="og:description"
+          content="Olá, sou Luciano Silva, um UX/UI Designer e Desenvolvedor Frontend com experiência em grandes empresas de tecnologia. Neste portfólio, você poderá explorar meus trabalhos criativos, recomendações e habilidades adquiridas ao longo da minha jornada profissional. Sinta-se à vontade para se conectar comigo no LinkedIn e explorar meus projetos no Github para ter uma visão mais aprofundada do meu expertise técnico e criativo."
+        />
+        <meta property="og:url" content="https://lucianosilva.dev" />
+        <meta property="og:image" content="https://lucianosilva.dev/share-og.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@lucianosilva.dev" />
+        <meta name="twitter:creator" content="@LockerzLBR" />
+        <meta name="twitter:title" content="Luciano Silva UX/UI Designer - Front-End Developer" />
+        <meta
+          name="twitter:description"
+          content="Olá, sou Luciano Silva, um UX/UI Designer e Desenvolvedor Frontend com experiência em grandes empresas de tecnologia. Neste portfólio, você poderá explorar meus trabalhos criativos, recomendações e habilidades adquiridas ao longo da minha jornada profissional. Sinta-se à vontade para se conectar comigo no LinkedIn e explorar meus projetos no Github para ter uma visão mais aprofundada do meu expertise técnico e criativo."
+        />
+        <meta name="twitter:image" content="https://lucianosilva.dev/opengraph-image.jpg" />
+        <link rel="canonical" href="https://lucianosilva.dev" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#171916" />
+      </Head>
       <body className={inter.className}>
         <AOSInit />
-        <NextSeo
-          title="Luciano Silva UX/UI Designer - Frontend Developer"
-          description="Olá, sou Luciano Silva, um UX/UI Designer e Desenvolvedor Frontend com experiência em grandes empresas de tecnologia. Neste portfólio, você poderá explorar meus trabalhos criativos, recomendações e habilidades adquiridas ao longo da minha jornada profissional. Sinta-se à vontade para se conectar comigo no LinkedIn e explorar meus projetos no Github para ter uma visão mais aprofundada do meu expertise técnico e criativo."
-          canonical="https://lucianosilva.dev"
-          openGraph={{
-            url: "https://lucianosilva.dev",
-            title: "Luciano Silva UX/UI Designer - Frontend Developer",
-            description:
-              "Olá, sou Luciano Silva, um UX/UI Designer e Desenvolvedor Frontend com experiência em grandes empresas de tecnologia. Neste portfólio, você poderá explorar meus trabalhos criativos, recomendações e habilidades adquiridas ao longo da minha jornada profissional.",
-            images: [
-              {
-                url: "https://lucianosilva.dev/share-og.jpg",
-                width: 1200,
-                height: 630,
-                alt: "Imagem de compartilhamento de Luciano Silva",
-                type: "image/jpeg",
-              },
-            ],
-            siteName: "Portfólio Luciano Silva",
-          }}
-          twitter={{
-            handle: "@LockerzLBR",
-            site: "@lucianosilva.dev",
-            cardType: "summary_large_image",
-          }}
-        />
-        {/* <DefaultSeo {...SEO} /> Use o DefaultSeo com as suas configurações de SEO */}
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <main>{children}</main>
         </ThemeProvider>
