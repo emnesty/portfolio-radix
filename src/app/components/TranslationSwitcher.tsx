@@ -20,7 +20,7 @@ const TranslationSwitcher: React.FC<TranslationSwitcherProps> = ({ onLanguageCha
     <Select.Root onValueChange={handleLanguageChange}>
       {" "}
       {/* Adicionando a função handleLanguageChange ao evento onValueChange */}
-      <Select.Trigger placeholder="Português" defaultValue="pt" />
+      <Select.Trigger placeholder="Português" defaultValue="pt" aria-label="Selecionar Linguagem" />
       <Select.Content>
         <Select.Group>
           <Select.Label>Languages</Select.Label>
