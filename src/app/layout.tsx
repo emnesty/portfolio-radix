@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Portfolio - Luciano Silva",
-  description: "Luciano Silva UX/UI Designer - Front-End Developer",
+  description: "Luciano Silva UX/UI Designer - Frontend Developer",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -21,12 +21,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={inter.className}>
         <AOSInit />
         <NextSeo
-          title="Luciano Silva UX/UI Designer - Front-End Developer"
+          title="Luciano Silva UX/UI Designer - Frontend Developer"
           description="Olá, sou Luciano Silva, um UX/UI Designer e Desenvolvedor Frontend com experiência em grandes empresas de tecnologia. Neste portfólio, você poderá explorar meus trabalhos criativos, recomendações e habilidades adquiridas ao longo da minha jornada profissional. Sinta-se à vontade para se conectar comigo no LinkedIn e explorar meus projetos no Github para ter uma visão mais aprofundada do meu expertise técnico e criativo."
           canonical="https://lucianosilva.dev"
           openGraph={{
             url: "https://lucianosilva.dev",
-            title: "Luciano Silva UX/UI Designer - Front-End Developer",
+            title: "Luciano Silva UX/UI Designer - Frontend Developer",
             description:
               "Olá, sou Luciano Silva, um UX/UI Designer e Desenvolvedor Frontend com experiência em grandes empresas de tecnologia. Neste portfólio, você poderá explorar meus trabalhos criativos, recomendações e habilidades adquiridas ao longo da minha jornada profissional.",
             images: [
