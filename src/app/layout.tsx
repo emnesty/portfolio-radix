@@ -20,13 +20,9 @@ export const metadata: Metadata = {
     siteName: "Luciano Silva UX/UI Designer - Front-End Developer",
     images: [
       {
-        url: "https://lucianosilva.dev/opengraph-image.jpg",
+        url: "https://www.lucianosilva.dev/images/opengraph-image.jpg",
       },
     ],
-  },
-
-  other: {
-    "google-site-verification": "ZVGdHmoplW_pBTM-dYjSBsi42jYQ1pnj6pWFqJLlInI",
   },
 }
 
