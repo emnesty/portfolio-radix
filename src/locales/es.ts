@@ -5,7 +5,7 @@ export const translations = {
   cases: "Trabajos",
   text: "Hola, soy Luciano Silva",
   textdescription:
-    "Con algunos años de experiencia en grandes empresas tecnológicas, actualmente trabajo como Diseñador UX/UI y siempre estoy buscando nuevos conocimientos y experiencias. Vamos a hablar.",
+    "Con algunos años de experiencia en grandes empresas tecnológicas, actualmente trabajo como Diseñador UX/UI y estoy siempre buscando nuevos conocimientos y experiencias. Vamos a hablar.",
   view: "Ver",
   infinitemarqueesectiontitle: "Recomendaciones y Comentarios",
   infinitemarqueesectiondescription:

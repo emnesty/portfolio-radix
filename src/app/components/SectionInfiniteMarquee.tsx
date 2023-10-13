@@ -59,7 +59,13 @@ const SectionInfiniteMarquee = () => {
               style={{ animationPlayState: isPausedLeft ? "paused" : "running" }}>
               <Card size="3" style={{ maxWidth: 500 }}>
                 <Flex gap="5" align="center">
-                  <Avatar size="5" src="/images/thais_maurin.webp" radius="full" fallback="TM" />
+                  <Avatar
+                    size="5"
+                    src="/images/thais_maurin.webp"
+                    alt="Avatar Photo"
+                    radius="full"
+                    fallback="TM"
+                  />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Thais Maurin
@@ -85,7 +91,7 @@ const SectionInfiniteMarquee = () => {
               </Card>
               <Card size="3" style={{ maxWidth: 500 }}>
                 <Flex gap="5" align="center">
-                  <Avatar size="5" src="/images/ale.webp" radius="full" fallback="AM" />
+                  <Avatar size="5" src="/images/ale.webp" alt="Avatar Photo" radius="full" fallback="AM" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Alexandre Mendonça
@@ -111,7 +117,13 @@ const SectionInfiniteMarquee = () => {
               </Card>
               <Card size="3" style={{ maxWidth: 500 }}>
                 <Flex gap="5" align="center">
-                  <Avatar size="5" src="/images/marllon.webp" radius="full" fallback="MB" />
+                  <Avatar
+                    size="5"
+                    src="/images/marllon.webp"
+                    alt="Avatar Photo"
+                    radius="full"
+                    fallback="MB"
+                  />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Marllon Bianchini
@@ -136,7 +148,13 @@ const SectionInfiniteMarquee = () => {
               </Card>
               <Card size="3" style={{ maxWidth: 500 }}>
                 <Flex gap="5" align="center">
-                  <Avatar size="5" src="/images/augusto.webp" radius="full" fallback="AS" />
+                  <Avatar
+                    size="5"
+                    src="/images/augusto.webp"
+                    alt="Avatar Photo"
+                    radius="full"
+                    fallback="AS"
+                  />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Augusto Schuambach
@@ -166,7 +184,13 @@ const SectionInfiniteMarquee = () => {
               style={{ animationPlayState: isPausedLeft ? "paused" : "running" }}>
               <Card size="3" style={{ maxWidth: 500 }}>
                 <Flex gap="5" align="center">
-                  <Avatar size="5" src="/images/thais_maurin.webp" radius="full" fallback="TM" />
+                  <Avatar
+                    size="5"
+                    src="/images/thais_maurin.webp"
+                    alt="Avatar Photo"
+                    radius="full"
+                    fallback="TM"
+                  />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Thais Maurin
@@ -192,7 +216,7 @@ const SectionInfiniteMarquee = () => {
               </Card>
               <Card size="3" style={{ maxWidth: 500 }}>
                 <Flex gap="5" align="center">
-                  <Avatar size="5" src="/images/ale.webp" radius="full" fallback="AM" />
+                  <Avatar size="5" src="/images/ale.webp" alt="Avatar Photo" radius="full" fallback="AM" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Alexandre Mendonça
@@ -218,7 +242,13 @@ const SectionInfiniteMarquee = () => {
               </Card>
               <Card size="3" style={{ maxWidth: 500 }}>
                 <Flex gap="5" align="center">
-                  <Avatar size="5" src="/images/marllon.webp" radius="full" fallback="MB" />
+                  <Avatar
+                    size="5"
+                    src="/images/marllon.webp"
+                    alt="Avatar Photo"
+                    radius="full"
+                    fallback="MB"
+                  />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Marllon Bianchini
@@ -243,7 +273,13 @@ const SectionInfiniteMarquee = () => {
               </Card>
               <Card size="3" style={{ maxWidth: 500 }}>
                 <Flex gap="5" align="center">
-                  <Avatar size="5" src="/images/augusto.webp" radius="full" fallback="AS" />
+                  <Avatar
+                    size="5"
+                    src="/images/augusto.webp"
+                    alt="Avatar Photo"
+                    radius="full"
+                    fallback="AS"
+                  />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Augusto Schuambach
@@ -310,7 +346,7 @@ const SectionInfiniteMarquee = () => {
               </Card>
               <Card size="1" style={{ maxWidth: 400 }}>
                 <Flex gap="5" align="center">
-                  <Avatar size="3" src="/images/yeloo.webp" radius="full" fallback="SM" />
+                  <Avatar size="3" src="/images/yeloo.webp" alt="Avatar Photo" radius="full" fallback="SM" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Silvio Matos
@@ -332,7 +368,13 @@ const SectionInfiniteMarquee = () => {
               </Card>
               <Card size="1" style={{ maxWidth: 400 }}>
                 <Flex gap="5" align="center">
-                  <Avatar size="3" src="/images/bernardo.webp" radius="full" fallback="BB" />
+                  <Avatar
+                    size="3"
+                    src="/images/bernardo.webp"
+                    alt="Avatar Photo"
+                    radius="full"
+                    fallback="BB"
+                  />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Bernardo B.
@@ -428,7 +470,7 @@ const SectionInfiniteMarquee = () => {
               </Card>
               <Card size="1" style={{ maxWidth: 400 }}>
                 <Flex gap="5" align="center">
-                  <Avatar size="3" src="/images/yeloo.webp" radius="full" fallback="SM" />
+                  <Avatar size="3" src="/images/yeloo.webp" alt="Avatar Photo" radius="full" fallback="SM" />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Silvio Matos
@@ -450,7 +492,13 @@ const SectionInfiniteMarquee = () => {
               </Card>
               <Card size="1" style={{ maxWidth: 400 }}>
                 <Flex gap="5" align="center">
-                  <Avatar size="3" src="/images/bernardo.webp" radius="full" fallback="BB" />
+                  <Avatar
+                    size="3"
+                    src="/images/bernardo.webp"
+                    alt="Avatar Photo"
+                    radius="full"
+                    fallback="BB"
+                  />
                   <Box>
                     <Text as="div" size="2" weight="bold">
                       Bernardo B.
