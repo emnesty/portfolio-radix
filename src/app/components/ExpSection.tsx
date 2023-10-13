@@ -1,7 +1,7 @@
 import { Badge, Container, Flex, Text, Link, Heading } from "@radix-ui/themes"
 import React from "react"
 
-const WorksSection = () => {
+const ExpSection = () => {
   return (
     <Container style={{ marginLeft: 15, marginRight: 15 }}>
       <div data-aos="fade-left" data-aos-duration="900">
@@ -105,4 +105,4 @@ const WorksSection = () => {
   )
 }
 
-export default WorksSection
+export default ExpSection
