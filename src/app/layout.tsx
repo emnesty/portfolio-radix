@@ -12,6 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-BR">
       <Head>
+        <meta charSet="UTF-8" />
         <title>Luciano Silva UX/UI Designer - Front-End Developer</title>
         <meta
           name="description"
