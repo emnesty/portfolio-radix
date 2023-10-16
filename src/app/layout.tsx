@@ -35,7 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AOSInit />
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <main>{children}</main>
-          <Analytics mode={"production"} />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
