@@ -4,7 +4,7 @@ import { Inter } from "next/font/google"
 import "@radix-ui/themes/styles.css"
 import { ThemeProvider } from "./components/ThemeProvider"
 import AOSInit from "./components/AOSInit"
-import Head from "next/head"
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: "Luciano Silva UX/UI Designer - Front-End Developer",
@@ -35,6 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AOSInit />
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <main>{children}</main>
+          <Analytics mode={"production"} />
         </ThemeProvider>
       </body>
     </html>

@@ -30,13 +30,10 @@ const ExpSection = () => {
             </Flex>
           </div>
           <Text className="text-[#FFFFFFAF]">
-            Criando protótipos de soluções para a logística interna do produto (WMS e Logan) em diferentes
-            níveis de fidelidade com as ferramentas mais recentes, conduzindo pesquisas e testes de
-            usabilidade, e colaborando com a equipe para brainstorming de novas características e definição de
-            critérios de sucesso. Fomento a cultura e prática de UX alinhadas às necessidades do negócio. Uso
-            diário de ferramentas como Figma, Maze, FullStory, entre outras, para documentação e geração de
-            insumos decisórios, além de apresentar descobertas e resultados das pesquisas e testes de
-            usabilidade à equipe, conduzindo entrevistas com usuários.
+            Desenvolvimento de protótipos para logística interna utilizando ferramentas modernas como Figma e
+            Maze, condução de pesquisas de usabilidade e colaboração em brainstormings para aprimorar
+            características do produto. Promovendo a cultura de UX alinhada às necessidades empresariais e
+            apresentando descobertas e resultados de pesquisas à equipe.
           </Text>
         </div>
         <div className="relative pl-8 sm:pl-32 py-6 group">
@@ -52,12 +49,9 @@ const ExpSection = () => {
             </Flex>
           </div>
           <Text className="text-[#FFFFFFAF]">
-            Como Especialista em Suporte e Sustentação, auxiliei no gerenciamento do WMS na AmBev, atuando na
-            resolução de incidentes via ServiceNow, análises via SQL Server e monitoramento dos serviços do
-            sistema. Também prestei suporte ao sistema PromaX ERP utilizado pela AmBev no Brasil, acompanhando
-            o processo de faturamento desde a emissão do pedido até a entrega ao cliente. Trabalhei em
-            conjunto com usuários finais e outras áreas de TI para garantir a continuidade operacional dos
-            sistemas e a satisfação do cliente interno e externo.
+            Auxiliei na gestão do WMS, resolvendo incidentes via ServiceNow e monitorando os serviços do
+            sistema. Ofereci suporte ao ERP PromaX, acompanhando o ciclo de faturamento e trabalhando com
+            diferentes setores para assegurar a continuidade operacional e a satisfação do cliente.
           </Text>
         </div>
         <div className="relative pl-8 sm:pl-32 py-6 group">
@@ -73,10 +67,9 @@ const ExpSection = () => {
             </Flex>
           </div>
           <Text className="text-[#FFFFFFAF]">
-            Prestei suporte aos sistemas PromaX, WMS e UNIDOCS na AmBev, acompanhando o faturamento,
-            gerenciamento de carregamentos e emissão de documentos de transporte. Atendi usuários, resolvi
-            incidentes via ServiceNow, realizei análises via SQL Server e MongoDB, gerei scripts SQL, analisei
-            logs, acompanhei Jiras e monitorei serviços via painéis e alertas PINPOINT.
+            Ofereci suporte a diversos sistemas na AmBev, atendendo usuários, gerenciando carregamentos e
+            resolvendo incidentes. Realizei análises via SQL Server e MongoDB, além de monitorar serviços,
+            garantindo uma operação fluida dos sistemas.
           </Text>
         </div>
         <div className="relative pl-8 sm:pl-32 py-6 group">
@@ -116,11 +109,10 @@ const ExpSection = () => {
             </Flex>
           </div>
           <Text className="text-[#FFFFFFAF]">
-            Suporte ao sistema FIS da Volkswagen, incluindo monitoramento em tempo real, análise de logs,
-            resolução de incidentes seguindo normas SLA e ITIL, além de manutenção de bancos de dados IBM DB2.
-            Comunicação com o Front Office sobre incidentes. Suporte ao sistema LINCS para controle de
-            fornecimento JIT, resolução de incidentes via Service Center Cosima, manutenção e gestão do banco
-            de dados MS SQL Server, incluindo Backup, Restore e manipulação de registros das tabelas.
+            Na Volkswagen, dei suporte ao sistema FIS, monitorando em tempo real, analisando logs e resolvendo
+            incidentes conforme normas SLA e ITIL. Prestei assistência ao sistema LINCS, gerenciando o banco
+            de dados MS SQL Server, e comunicando incidentes ao Front Office, garantindo a eficiência na
+            entrega JIT.
           </Text>
         </div>
       </div>
