@@ -21,7 +21,7 @@ import { LanguageContext } from "./LanguageProvider"
 
 const SectionWorks = () => {
   const languageContext = useContext(LanguageContext)
-  if (!languageContext) throw new Error("Header must be used within a LanguageProvider")
+  if (!languageContext) throw new Error("SectinWorks must be used within a LanguageProvider")
   const { translations } = languageContext
 
   return (
