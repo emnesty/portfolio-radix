@@ -8,6 +8,7 @@ interface Projeto {
   description: string
   imgsrc: string
   badges: string[]
+  descriptiondetails?: string
 }
 
 const Portfolio = () => {

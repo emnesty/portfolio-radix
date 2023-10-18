@@ -16,7 +16,7 @@ interface Projeto {
   id: number
   title: string
   description: string
-  descriptiondetails: string
+  descriptiondetails?: string
   imgsrc: string
   badges: string[]
 }
