@@ -34,7 +34,10 @@ const SectionHero = () => {
                 UX/UI Designer, Frontend developer.
               </Heading>
             </div>
-            <div data-aos="fade-right" data-aos-duration="1300" className="w-full max-w-[550px] max-sm:max-w-[420px] mt-8">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="1300"
+              className="w-full max-w-[550px] max-sm:max-w-[420px] mt-8">
               <Text>{translations.textdescription}</Text>
             </div>
             <div data-aos="fade-right" data-aos-duration="1200">

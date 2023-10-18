@@ -23,11 +23,12 @@
     "react": "latest",
     "react-dom": "latest",
     "react-world-flags": "^1.6.0",
+    "reading-time": "^1.5.0",
     "styled-components": "^6.0.8"
   },
   "devDependencies": {
     "@types/aos": "^3.0.5",
-    "@types/node": "latest",
+    "@types/node": "20.8.6",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
@@ -35,6 +36,6 @@
     "eslint-config-next": "latest",
     "postcss": "latest",
     "tailwindcss": "latest",
-    "typescript": "latest"
+    "typescript": "5.2.2"
   }
 }
