@@ -26,7 +26,7 @@ const SectionWorks = () => {
 
   return (
     <Section>
-      <Container>
+      <Container className="mr-[15px] ml-[15px]">
         <Heading>Trabalhos e Cases</Heading>
         <Text>Alguns dos meus trabalhos e cases enquanto Designer e Desenvolvedor Frontend.</Text>
         <Grid
