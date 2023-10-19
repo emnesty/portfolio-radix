@@ -25,7 +25,7 @@ const SectionAbout = () => {
 
   return (
     <Section>
-      <Container className="mt-8 mb-8 mr-[15px] ml-[15px]">
+      <Container id="about" className="mt-8 mb-8 mr-[15px] ml-[15px]">
         <Flex className="flex justify-between items-center max-lg:flex max-lg:flex-col">
           <div data-aos="zoom-in-up">
             <Image

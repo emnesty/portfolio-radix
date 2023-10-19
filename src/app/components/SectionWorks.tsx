@@ -26,7 +26,7 @@ const SectionWorks = () => {
 
   return (
     <Section>
-      <Container className="mr-[15px] ml-[15px]">
+      <Container id="cases" className="mr-[15px] ml-[15px]">
         <div data-aos="fade-right" data-aos-duration="1100">
           <Heading>Trabalhos e Cases</Heading>
         </div>
