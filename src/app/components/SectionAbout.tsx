@@ -37,26 +37,30 @@ const SectionAbout = () => {
             />
           </div>
           <Flex direction="column">
-            <div data-aos="fade-left" data-aos-duration="900">
-              <Heading>Sobre</Heading>
-            </div>
-            <div data-aos="fade-left" data-aos-duration="800" className="max-w-[500px]">
-              <Text>
-                Me chamo Luciano e trabalho com tecnologia a mais de 10 anos, hoje atuo como Designer de
-                Produto na AmbevTech, empresa do grupo Ambev / Anheuser-Busch InBev.
-              </Text>
-            </div>
-            <div data-aos="fade-left" data-aos-duration="700">
-              <Separator my="3" size="4" />
-            </div>
-            <div data-aos="fade-left" data-aos-duration="600" className="max-w-[500px]">
-              <Text>
-                Como Designer de Produto, procuro atuar de ponta a ponta durante todo o processo de concepção
-                de negócio, participando de refinamentos com stackholders, desenvolvedores e analistas de
-                negócio, garantindo que o usuário seja levado em conta em todas as discussões.
-              </Text>
-            </div>
-            <Flex direction="column" gap="4">
+            <Flex className="flex flex-col max-[950px]:text-center max-[950px]:justify-center max-[950px]:items-center">
+              <div data-aos="fade-left" data-aos-duration="900">
+                <Heading>Sobre</Heading>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="800" className="max-w-[500px]">
+                <Text>
+                  Me chamo Luciano e trabalho com tecnologia a mais de 10 anos, hoje atuo como Designer de
+                  Produto na AmbevTech, empresa do grupo Ambev / Anheuser-Busch InBev.
+                </Text>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="700">
+                <Separator my="3" size="4" />
+              </div>
+              <div data-aos="fade-left" data-aos-duration="600" className="max-w-[500px]">
+                <Text>
+                  Como Designer de Produto, procuro atuar de ponta a ponta durante todo o processo de
+                  concepção de negócio, participando de refinamentos com stackholders, desenvolvedores e
+                  analistas de negócio, garantindo que o usuário seja levado em conta em todas as discussões.
+                </Text>
+              </div>
+            </Flex>
+            <Flex
+              className="flex flex-col max-[950px]:text-center max-[950px]:justify-center max-[950px]:items-center"
+              gap="4">
               <div data-aos="fade-left" data-aos-duration="500" className="mt-2">
                 <Text weight="bold">Algumas das minhas skills</Text>
               </div>
@@ -112,7 +116,7 @@ const SectionAbout = () => {
                 <HoverCard.Root>
                   <HoverCard.Trigger>
                     <Link target="_blank" href="https://www.linkedin.com/in/lucianoclecio/">
-                      <Flex align="center" gap="2" mt="4">
+                      <Flex className="flex max-[950px]:text-center max-[950px]:justify-center max-[950px]:items-center mt-4 gap-4">
                         <LinkedInLogoIcon />
                         LinkedIn
                       </Flex>

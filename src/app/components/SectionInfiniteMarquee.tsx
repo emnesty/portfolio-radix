@@ -31,16 +31,18 @@ const SectionInfiniteMarquee = () => {
 
   return (
     <Container style={{ marginLeft: 15, marginRight: 15 }}>
-      <div data-aos="fade-right" data-aos-duration="1100">
-        <Heading as="h1" size="6" mt="4">
-          {translations.infinitemarqueesectiontitle}
-        </Heading>
-      </div>
-      <div data-aos="fade-right" data-aos-duration="1000">
-        <Text mt="4">
-          <Box style={{ maxWidth: 600 }}>{translations.infinitemarqueesectiondescription}</Box>
-        </Text>
-      </div>
+      <Flex className="flex flex-col max-[950px]:text-center max-[950px]:justify-center max-[950px]:items-center">
+        <div data-aos="fade-right" data-aos-duration="1100">
+          <Heading as="h1" size="6" mt="4">
+            {translations.infinitemarqueesectiontitle}
+          </Heading>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="1000">
+          <Text className="mt-4">
+            <Box style={{ maxWidth: 600 }}>{translations.infinitemarqueesectiondescription}</Box>
+          </Text>
+        </div>
+      </Flex>
       <Flex direction="column" justify="center" style={{ overflow: "hidden", position: "relative" }}>
         <div
           className="relative flex flex-col pt-12 justify-center overflow-hidden

@@ -23,23 +23,26 @@ const SectionWorks = () => {
   const languageContext = useContext(LanguageContext)
   if (!languageContext) throw new Error("SectinWorks must be used within a LanguageProvider")
   const { translations } = languageContext
-
   return (
     <Section>
-      <Container id="cases" className="mr-[15px] ml-[15px]">
-        <div data-aos="fade-right" data-aos-duration="1100">
-          <Heading>Trabalhos e Cases</Heading>
-        </div>
-        <div data-aos="fade-right" data-aos-duration="1000">
-          <Text>Alguns dos meus trabalhos e cases enquanto Designer e Desenvolvedor Frontend.</Text>
-        </div>
+      <Container id="cases">
+        {" "}
+        {/*className="mr-[15px] ml-[15px]"> */}
+        <Flex className="flex flex-col max-[950px]:text-center max-[950px]:justify-center max-[950px]:items-center">
+          <div data-aos="fade-right" data-aos-duration="1100">
+            <Heading>Trabalhos e Cases</Heading>
+          </div>
+          <div data-aos="fade-right" data-aos-duration="1000">
+            <Text>Alguns dos meus trabalhos e cases enquanto Designer e Desenvolvedor Frontend.</Text>
+          </div>
+        </Flex>
         <div data-aos="fade-right" data-aos-duration="900">
           <Grid
             columns="3"
             width="auto"
             gap="4"
             mt="8"
-            className="max-xl:grid-cols-2 max-xl:grid max-md:grid-cols-1">
+            className="max-xl:grid-cols-2 max-xl:grid max-md:grid-cols-1 max-[767px]:justify-center max-[767px]:items-center max-[767px]:flex max-[767px]:flex-col">
             {projetosData.map((projeto, index) => (
               <Link href={`/projetos/${projeto.id}`} key={projeto.id}>
                 <Card key={index} size="2" style={{ width: 350 }}>

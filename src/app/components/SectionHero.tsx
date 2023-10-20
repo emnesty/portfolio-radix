@@ -14,8 +14,10 @@ const SectionHero = () => {
 
   return (
     <Section className="bg-[url('/images/background-pattern-3.png')] bg-no-repeat bg-center bg-cover flex w-full h-[530px] mb-10 ">
-      <Container className="mr-[15px] ml-[15px]">
-        <Flex className="max-lg:mt-10 max-sm:mt-12" justify="between">
+      <Container className="max-[950px]:text-center">
+        {" "}
+        {/*className="mr-[15px] ml-[15px]"> */}
+        <Flex className="max-lg:mt-10 justify-between	 max-sm:mt-12 max-[950px]:justify-center">
           <Flex direction="column" justify="center">
             <div data-aos="fade-right" data-aos-duration="1500">
               <Text>{translations.text}</Text>
@@ -41,7 +43,7 @@ const SectionHero = () => {
               <Text>{translations.textdescription}</Text>
             </div>
             <div data-aos="fade-right" data-aos-duration="1200">
-              <Flex align="center" gap="6">
+              <Flex align="center" gap="6" className="max-[950px]:justify-center">
                 <HoverCard.Root>
                   <HoverCard.Trigger>
                     <Link target="_blank" href="https://www.linkedin.com/in/lucianoclecio/">
@@ -75,7 +77,7 @@ const SectionHero = () => {
               </Flex>
             </div>
           </Flex>
-          <div data-aos="zoom-in-up" className="max-lg:hidden">
+          <div data-aos="zoom-in-up" className="max-[950px]:hidden">
             <Image
               style={{ borderRadius: 8 }}
               src="/images/MY.webp"

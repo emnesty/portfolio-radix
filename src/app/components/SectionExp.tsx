@@ -3,13 +3,15 @@ import React from "react"
 
 const ExpSection = () => {
   return (
-    <Container id="experience" style={{ marginLeft: 15, marginRight: 15 }}>
-      <div data-aos="fade-right" data-aos-duration="1100">
+    <Container id="experience">  {/*className="mr-[15px] ml-[15px]"> */}
+        <Flex className="flex flex-col max-[950px]:text-center max-[950px]:justify-center max-[950px]:items-center">
+        <div data-aos="fade-right" data-aos-duration="1100">
         <Heading>Experiência</Heading>
       </div>
       <div data-aos="fade-right" data-aos-duration="1000" className="max-w-[500px] mb-9">
         <Text>Minha trajetória profissional ao longo dos anos</Text>
       </div>
+        </Flex>
       <div className="-my-6">
         <div data-aos="fade-up" data-aos-duration="900" className="relative pl-8 sm:pl-32 py-6 group">
           <Flex>
