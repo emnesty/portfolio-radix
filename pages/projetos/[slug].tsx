@@ -46,8 +46,6 @@ const ProjetoPage = ({ projeto }: ProjetoProps) => {
           style={{
             background: "var(--gray-a2)",
             borderRadius: "var(--radius-3)",
-            marginLeft: 32,
-            marginRight: 32,
           }}>
           <Container style={{ marginLeft: 32, marginRight: 32, paddingTop: 16, paddingBottom: 16 }}>
             <Theme accentColor="orange" grayColor="olive">
@@ -68,8 +66,8 @@ const ProjetoPage = ({ projeto }: ProjetoProps) => {
                 <Image
                   src={projeto.imgsrc}
                   alt={projeto.title}
-                  width={1060}
-                  height={689}
+                  width={549}
+                  height={357}
                   layout="responsive"
                 />
                 {/* Descrição do Projeto */}

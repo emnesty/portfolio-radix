@@ -25,6 +25,7 @@ import {
   MenubarSubTrigger,
   MenubarTrigger,
 } from "@radix-ui/react-menubar"
+import { ThemeSwitcher } from "./ThemeSwitcher"
 
 const Header = () => {
   const languageContext = useContext(LanguageContext)

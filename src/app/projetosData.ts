@@ -5,10 +5,12 @@ export const projetosData = [
     title: "Blizzard - Website",
     badges: ["HTML", "CSS/SASS", "JavaScript"],
     description:
-      "Página feita como estudo de caso, sobre a Blizzard e os jogos disponibilizados por ela, totalmente responsivo",
+      "Página feita como estudo de caso, sobre a Blizzard e os jogos disponibilizados por ela, totalmente responsivo, utilizando HTML, CSS/SASS e JavaScript",
     descriptiondetails:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
     imgsrc: "/images/blizzard-lp.png",
+    github: "https://github.com/emnesty/projeto-blizzard",
+    vercel: "https://projeto-blizzard-omega.vercel.app/",
   },
   {
     id: 2,
