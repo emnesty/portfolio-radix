@@ -6,6 +6,7 @@ import SectionHero from "./components/SectionHero"
 import SectionInfiniteMarquee from "./components/SectionInfiniteMarquee"
 import SectionExp from "./components/SectionExp"
 import SectionWorks from "./components/SectionWorks"
+import SectionFooter from "./components/SectionFooter"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <SectionAbout />
         <SectionExp />
         <SectionWorks />
+        <SectionFooter />
       </Theme>
     </LanguageProvider>
   )

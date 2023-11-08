@@ -19,10 +19,10 @@ const SectionHero = () => {
         {/*className="mr-[15px] ml-[15px]"> */}
         <Flex className="max-lg:mt-10 justify-between	 max-sm:mt-12 max-[950px]:justify-center">
           <Flex direction="column" justify="center">
-            <div data-aos="fade-right" data-aos-duration="1500">
+            <div data-aos="fade-up" data-aos-duration="1500">
               <Text>{translations.text}</Text>
             </div>
-            <div data-aos="fade-right" data-aos-duration="1400">
+            <div data-aos="fade-up" data-aos-duration="1400">
               <Heading
                 className="w-full max-w-[600px] max-sm:max-w-[400px] mt-4"
                 size={{
@@ -37,12 +37,12 @@ const SectionHero = () => {
               </Heading>
             </div>
             <div
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-duration="1300"
               className="w-full max-w-[550px] max-sm:max-w-[420px] mt-8">
               <Text>{translations.textdescription}</Text>
             </div>
-            <div data-aos="fade-right" data-aos-duration="1200">
+            <div data-aos="fade-up" data-aos-duration="1200">
               <Flex align="center" gap="6" className="max-[950px]:justify-center">
                 <HoverCard.Root>
                   <HoverCard.Trigger>

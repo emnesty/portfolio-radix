@@ -33,14 +33,14 @@ const SectionWorks = () => {
         {" "}
         {/*className="mr-[15px] ml-[15px]"> */}
         <Flex className="flex flex-col max-[950px]:text-center max-[950px]:justify-center max-[950px]:items-center">
-          <div data-aos="fade-right" data-aos-duration="1100">
+          <div data-aos="fade-up" data-aos-duration="1100">
             <Heading>Trabalhos e Cases</Heading>
           </div>
-          <div data-aos="fade-right" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000">
             <Text>Alguns dos meus trabalhos e cases enquanto Designer e Desenvolvedor Frontend.</Text>
           </div>
         </Flex>
-        <div data-aos="fade-right" data-aos-duration="900">
+        <div data-aos="fade-up" data-aos-duration="900">
           <Grid
             columns="3"
             width="auto"
@@ -102,7 +102,7 @@ const SectionWorks = () => {
                             <Link target="_blank" href={projeto.vercel} rel="noopener noreferrer">
                               <Flex align="center" gap="2">
                                 <VercelLogoIcon />
-                                Vercel
+                                Vercel Deploy
                               </Flex>
                             </Link>
                           </Button>
