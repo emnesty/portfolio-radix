@@ -16,7 +16,7 @@ const SectionHero = () => {
     <Section className="bg-[url('/images/background-pattern-3.png')] bg-no-repeat bg-center bg-cover flex w-full h-[530px] mb-10 ">
       <Container className="max-[950px]:text-center">
         <Flex className="max-lg:mt-10 justify-between	max-sm:mt-12 max-[950px]:justify-center">
-          <Flex className="flex flex-col justify-center items-center">
+          <Flex className="flex flex-col justify-center  max-sm:max-w-items-center">
             <div data-aos="fade-up" data-aos-duration="1500">
               <Text>{translations.text}</Text>
             </div>
